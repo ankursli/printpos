@@ -1,0 +1,16 @@
+{
+  "name": "pdf-printing-service",
+  "version": "1.0.0",
+  "description": "A simple service to print PDF documents",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hanoz Ichhaporia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pdf-to-printer": "^5.2.0"
+  }
+}
